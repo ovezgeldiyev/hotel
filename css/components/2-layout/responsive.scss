@@ -1,0 +1,394 @@
+// 1820px
+@include xxxxxxlg-xxxxxxxlg {
+    @include contact-xxxxxxlg-xxxxxxxlg;
+}
+// 1640px
+@include xxxxxlg-xxxxxxlg {
+    @include header-xxxxxlg-xxxxxxlg;
+    @include nav-xxxxxlg-xxxxxxlg;
+}
+// 1450px
+@include xxxxlg-xxxxxlg {
+    .main {
+        &.big {
+            padding-top: 87px;
+        }
+    }
+    @include header-xxxxlg-xxxxxlg;
+    @include nav-xxxxlg-xxxxxlg;
+    @include contact-xxxxlg-xxxxxlg;
+
+}
+// 1350px
+@include xxxlg-xxxxlg {
+    .main {
+        &.big {
+            padding-top: 83px;
+        }
+    }
+    @include header-xxxlg-xxxxlg;
+    @include nav-xxxlg-xxxxlg;
+
+}
+// 1250px
+@include xlg-xxlg-extra {
+    @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+    .auto__container {
+        padding: 0 30px;
+    }
+    h1 {
+        font-size: 80px;
+        line-height: 85px;
+        &.sm {
+            font-size: 70px;
+            line-height: 73px;
+        }
+    }
+    
+    h2 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+    
+    h3 {
+        font-size: 45px;
+        line-height: 50px;
+        &.sm {
+            font-size: 35px;
+            line-height: 40px;
+        }
+    }
+    
+    h4 {
+        font-size: 26px;
+        line-height: 32px;
+        &.sm {
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+    
+    h5 {
+        font-size: 21px;
+        line-height: 26px;
+    }
+    
+    p {
+        font-size: 22px;
+        line-height: 28px;
+        &.extra {
+            font-size: 40px;
+            line-height: 50px;
+        }
+        &.big {
+            font-size: 24px;
+            line-height: 34px;
+        }
+    
+    }
+    .main {
+        &.big {
+            padding-top: 80px;
+        }
+    }
+    @include header-xlg-xxlg;
+    @include nav-xlg-xxlg;
+    @include hero-xlg-xxlg;
+    @include intro-xlg-xxlg;
+    @include features-xlg-xxlg;
+    @include rooms-xlg-xxlg;
+    @include contact-xlg-xxlg;
+
+}
+// 1024px
+@include lg-xlg {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    h1 {
+        font-size: 70px;
+        line-height: 75px;
+        &.sm {
+            font-size: 52px;
+            line-height: 55px;
+        }
+    }
+    
+    h2 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    
+    h3 {
+        font-size: 40px;
+        line-height: 45px;
+    
+    }
+    
+    h4 {
+        font-size: 24px;
+        line-height: 30px;
+        &.sm {
+            font-size: 22px;
+            line-height: 26px;
+        }
+    }
+    
+    h5 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    p {
+        font-size: 20px;
+        line-height: 26px;
+        &.extra {
+            font-size: 35px;
+            line-height: 40px;
+        }
+        &.big {
+            font-size: 22px;
+            line-height: 32px;
+        }
+    }
+    @include hero-lg-xlg;
+    @include features-lg-xlg;
+    @include rooms-lg-xlg;
+    @include options-lg-xlg;
+    @include benefits-lg-xlg;
+    @include contact-lg-xlg;
+    @include footer-lg-xlg;
+    @include price-lg-xlg;
+
+}
+// 930px
+@include md-lg {
+    h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    @include hero-md-lg;
+    @include intro-md-lg;
+    @include features-md-lg;
+    @include rooms-md-lg;
+    @include options-md-lg;
+    @include benefits-md-lg;
+    @include contact-md-lg;
+    @include footer-md-lg;
+    @include price-md-lg;
+
+}
+// 840px
+@include md-lg-extra {
+    @include intro-md-lg-extra;
+
+}
+// 750px
+@include sm-md {
+    .auto__container {
+        padding: 0 20px;
+    }
+    h1 {
+        font-size: 60px;
+        line-height: 65px;
+        &.sm {
+            font-size: 40px;
+            line-height: 43px;
+        }
+    }
+    
+    h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    
+    h3 {
+        font-size: 35px;
+        line-height: 40px;
+        &.sm {
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+    
+    h4 {
+        font-size: 22px;
+        line-height: 28px;
+        &.sm {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    
+    h5 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 24px;
+        &.extra {
+            font-size: 30px;
+            line-height: 35px;
+        }
+        &.big {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+    @include header-sm-md;
+    @include hero-sm-md;
+    @include intro-sm-md;
+    @include features-sm-md;
+    @include rooms-sm-md;
+    @include options-sm-md;
+    @include benefits-sm-md;
+    @include footer-sm-md;
+    @include price-sm-md;
+
+}
+// 650px
+@include sm-md-extra {
+    @include hero-sm-md-extra;
+    @include features-sm-md-extra;
+    @include rooms-sm-md-extra;
+    @include options-sm-md-extra;
+    @include footer-sm-md-extra;
+
+}
+// 540px
+@include xsm-sm  {
+    h1 {
+        font-size: 50px;
+        line-height: 55px;
+        &.sm {
+            font-size: 30px;
+            line-height: 33px;
+        }
+    }
+    
+    h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    
+    h3 {
+        font-size: 30px;
+        line-height: 35px;
+        &.sm {
+            font-size: 25px;
+            line-height: 30px;
+        }
+    }
+    
+    h4 {
+        font-size: 20px;
+        line-height: 26px;
+        &.sm {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    
+    h5 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    // h6 {
+    //     font-size: 12px;
+    //     line-height: 20px;
+    //     letter-spacing: .5px;
+    //     &.sm {
+    //         font-size: 10px;
+    //         line-height: 16px;
+    //     }
+    //     &.ex {
+    //         font-size: 11px;
+    //         line-height: 17px;
+    //     }
+    // }
+    p {
+        font-size: 18px;
+        line-height: 22px;
+        &.extra {
+            font-size: 22px;
+            line-height: 27px;
+        }
+        &.big {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+    .anchor {
+        top: -70px;
+    }
+    .main {
+        &.big {
+            padding-top: 64px;
+        }
+    }
+    @include header-xsm-sm;
+    @include nav-xsm-sm;
+    @include hero-xsm-sm;
+    @include intro-xsm-sm;
+    @include features-xsm-sm;
+    @include options-xsm-sm;
+    @include contact-xsm-sm;
+    @include footer-xsm-sm;
+    @include price-xsm-sm;
+
+}
+// 440px
+@include xxsm-xsm  {
+    // p {
+    //     &.extra {
+    //         font-size: 16px;
+    //         line-height: 20px;
+    //     }
+    // }
+    @include hero-xxsm-xsm;
+    @include intro-xxsm-xsm;
+    @include rooms-xxsm-xsm;
+    @include options-xxsm-xsm;
+    @include benefits-xxsm-xsm;
+    @include contact-xxsm-xsm;
+    @include footer-xxsm-xsm;
+    @include price-xxsm-xsm;
+
+}
+// 390px
+@include xxxsm-xxsm  {
+    .auto__container {
+        padding: 0 15px;
+    }
+    // h1 {
+    //     font-size: 45px;
+    //     line-height: 50px;
+    //     &.sm {
+    //         font-size: 26px;
+    //         line-height: 30px;
+    //     }
+    // }
+    
+    // h2 {
+    //     font-size: 35px;
+    //     line-height: 40px;
+    // }
+    
+    // h3 {
+    //     font-size: 25px;
+    //     line-height: 30px;
+    //     &.sm {
+    //         font-size: 20px;
+    //         line-height: 25px;
+    //     }
+    // }
+    @include options-xxxsm-xxsm;
+    @include footer-xxxsm-xxsm;
+
+}
+
